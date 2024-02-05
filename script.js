@@ -26,6 +26,7 @@ const duckPosition = { x: 4, y: 8 };
 let contentBeforeDuck= '';
 let time = 15;
 
+// Functions
 function drawGrid() {
   grid.innerHTML = '';
 
@@ -49,4 +50,10 @@ function drawGrid() {
   });
 }
 
+function placeDuck() {
+  contentBeforeDuck = gridMatrix[duckPosition.y][duckPosition.x];
+  gridMatrix[duckPosition.y][duckPosition.x] = 'duck';
+}
+
+placeDuck();
 drawGrid();
