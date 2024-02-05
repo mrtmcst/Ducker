@@ -1,3 +1,5 @@
-# Ducker
+<h1>Ducker</h1>
+<p>Simple game similar to the classic Frogger</p>
+<p>:)</p>
 
-# Simple game similer to classic Frogger using HTML, CSS and JS :)
+
