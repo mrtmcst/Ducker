@@ -8,17 +8,7 @@ const playAgainButton = document.querySelector('.play-again');
 // Grid
 const gridMatrix = [
   ['', '', '', '', '', '', '', '', ''],
-  [
-    'river',
-    'wood',
-    'wood',
-    'river',
-    'wood',
-    'river',
-    'river',
-    'river',
-    'river',
-  ],
+  ['river', 'wood', 'wood', 'river', 'wood', 'river', 'river', 'river', 'river'],
   ['river', 'river', 'river', 'wood', 'wood', 'river', 'wood', 'wood', 'river'],
   ['', '', '', '', '', '', '', '', ''],
   ['road', 'bus', 'road', 'road', 'road', 'car', 'road', 'road', 'road'],
