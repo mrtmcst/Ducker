@@ -30,6 +30,7 @@ body {
 
 .game-container {
   width: calc((48px * 9) + 4px);
+  margin: auto;
 }
 
 /* # Game Panel */
